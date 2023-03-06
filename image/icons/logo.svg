@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="708" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Bodoni MT">
+		<font-face-src>
+			<font-face-name name="Bodoni MT"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="K" horiz-adv-x="792" d="M175.833 24.8334l0 605 -102.5 0 0 25.0006 321.667 0 0 -25.0006 -103.001 0 0 -605 103.001 0 0 -24.8334 -321.667 0 0 24.8334 102.5 0zm289 630l247.167 0 0 -25.0006 -100.167 0 -216.833 -222.666 316.999 -382.333 63.8334 0 0 -24.8334 -321.666 0 0 24.8334 112.666 0 -263.667 323.333 273 281.667 -111.334 0 0 25.0006z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Bodoni MT";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str0 {stroke:#2B2A29;stroke-width:250;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+    .fil1 {fill:#2B2A29}
+    .fnt0 {font-weight:normal;font-size:10583.33px;font-family:'Bodoni MT'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0 str0" cx="9829.08" cy="14660.87" r="7562.5"/>
+  <text x="5822.61" y="17941.21"  class="fil1 fnt0">K</text>
+ </g>
+</svg>
