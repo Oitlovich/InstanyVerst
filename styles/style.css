@@ -207,7 +207,6 @@ nav{
     left: 35%; 
     height: 600px;
     width: 400px;
-    border: 1px solid black;
     transition: 0.2s;
   }
   .section1_block1:hover{
