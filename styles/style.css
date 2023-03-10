@@ -50,15 +50,15 @@ body, html{
   left: 210px;
   font-weight: 700;
   color: white;
-  font-size: 45px;
+  font-size: 60px;
 }
 .header_text{
   position: absolute;
-  top: 280px;
+  top: 300px;
   color: white;
   left: 210px;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 38px;
 }
 .header_button1{
   width: 270px;
