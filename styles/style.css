@@ -336,13 +336,10 @@ nav{
   justify-content: center;
   align-items: center;
 }
-.section2_women1, .section2_women2, .section2_women3, .section2_women4, .section2_women5, .section2_women6, .section2_women7, .section2_women8{
-    height: 370px;
-    width: 260px;
+/* .section2_women1, .section2_women2, .section2_women3, .section2_women4, .section2_women5, .section2_women6, .section2_women7, .section2_women8{ */
+  .mask{  
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
-    margin-left: 40px;
     filter: grayscale(100%);
     transition: 0.2s;
 }
@@ -364,48 +361,6 @@ nav{
   flex-direction: row;
   width: 1300px;
   height: 890px;
-}
-.section2_women2{
-  display: flex;
-  flex-wrap: wrap;
-  width: 260px;
-    height: 370px;
-}
-.section2_women1{
-  height: 370px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 260px;
-}
-.section2_women3{
-  height: 330px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.section2_women4{
-  height: 330px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.section2_women5{
-  height: 330px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.section2_women6{
-  height: 370px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.section2_women7{
-  height: 370px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.section2_women8{
-  height: 330px;
-  display: flex;
-  flex-wrap: wrap;
 }
 .section2_text{
   font-size: 50px;
