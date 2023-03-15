@@ -22,12 +22,14 @@ body, html{
 }
 .nav_item {
     position: relative;
+    font-size: 10px;
     cursor: pointer;
     text-decoration: none; /* Убираем подчеркивание */
 }
 .nav_item:after {
   	content: "";
     display: block;
+    font-size: 10px;
     position: absolute;
     right: 0;
     bottom: -3px;
@@ -158,14 +160,15 @@ nav{
     justify-content: center;
     column-gap: 2%;
     height: 70px;
-    font-size: 17px;
+    font-size: 15px;
     transition: 0.2s;
     /* border: 1px solid black; */
 }
 .nav_call, .nav_main, .nav_ourmodels{
     display: flex;
     justify-content: center;
-    font-size: 27px;
+    font-size: 21px;
+    align-items: center;
     cursor: pointer;
     text-decoration: none;
     color: black;
@@ -336,20 +339,19 @@ nav{
   justify-content: center;
   align-items: center;
 }
-    .section2_women1, .section2_women2, .section2_women3, .section2_women4, .section2_women5, .section2_women6, .section2_women7, .section2_women8{
-      width: 12vw;
-    }
-  .mask{  
-    display: flex;
-    width: 25%;
-    height: 309px;
-    margin: 30px 0;
-    justify-content: space-around;
-    filter: grayscale(100%);
-    transition: 0.2s;
+.section2_women1, .section2_women2, .section2_women3, .section2_women4, .section2_women5, .section2_women6, .section2_women7, .section2_women8{
+  width: 13vw;
 }
-/* .section2_women1:hover, .section2_women2:hover, .section2_women3:hover, .section2_women4:hover, .section2_women5:hover, .section2_women6:hover, .section2_women7:hover, .section2_women8:hover{ */
-  .mask:hover{
+.mask{  
+  display: flex;
+  width: 25%;
+  height: 309px;
+  margin: 30px 0;
+  justify-content: space-around;
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+.mask:hover{
   filter: grayscale(0%);
 }
 .firstline{
