@@ -532,6 +532,49 @@ footer{
     right: 360px;
   }
   .section1_text{
+    margin: 0;
+  }
+  .header_image{
+    position: relative;
+    right: 400px;
+    width: 100%;
+  }
+  .images_alena, .section1_women1_img1{
+    display: none;
+  }
+  .section1_name, .section2_name{
+    width: 1150px;
+  }
+  .section1_images{
+    margin-left: -156px;
+  }
+  .section1_text{
+    position: relative;
+    right: 250px;
+  }
+  .header_button2{
+    color: #000;
+    border: 1px solid #313131;
+    width: 340px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 330px;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  .header_button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 30px;
   }
 }
 @media (max-width: 768px) {
