@@ -519,9 +519,8 @@ footer{
       width: 100%;
   }
   .header_image{
-    position: relative;
-    right: 400px;
-    width: 100%;
+    background-size: 400vw;
+    width: 500vw;
   }
   .images_alena, .section1_women1_img1{
     display: none;
@@ -530,11 +529,14 @@ footer{
     width: 1150px;
   }
   .section1_images{
-    margin-left: -156px;
+    position: relative;
+    right: 360px;
+    top: 50px;
   }
   .section1_text{
     position: relative;
-    right: 250px;
+    right: 320px;
+    width: 500px;
   }
   .header_button2{
     color: #000;
@@ -576,9 +578,12 @@ footer{
       width: 960px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 2560px) {
   #page_one, #page_two, #page_three, footer{
       width: 1140px;
+  }
+  .section1_images{
+    margin-left: 200px;
   }
 }
 @media (min-width: 1401px) {
