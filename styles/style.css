@@ -518,6 +518,22 @@ footer{
   #page_one, #page_two, #page_three, footer{
       width: 100%;
   }
+  .section1_name{
+    width: 1200px;
+  }
+  .images_alena{
+    display: none;
+  }
+  .section1_women1_img1{
+    display: none;
+  }
+  .section1_images{
+    position: relative;
+    right: 360px;
+  }
+  .section1_text{
+    margin: 0;
+  }
   .header_image{
     background-size: 400vw;
     width: 500vw;
