@@ -535,8 +535,17 @@ footer{
     margin: 0;
   }
   .header_image{
-    background-size: 400vw;
-    width: 500vw;
+  background-size: 400vw;
+  width: 500vw;
+  }
+  .header_text{
+    top: 270px;
+    left: 90px;
+    width: 400px;
+  }
+  .header_name{
+    top: 150px;
+    left: 90px;
   }
   .images_alena, .section1_women1_img1{
     display: none;
@@ -555,9 +564,9 @@ footer{
     width: 500px;
   }
   .header_button2{
-    color: #000;
-    border: 1px solid #313131;
-    width: 340px;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 220px;
     height: 70px;
     font-size: 20px;
     font-weight: 600;
@@ -566,7 +575,7 @@ footer{
     align-items: center;
     position: absolute;
     top: 500px;
-    left: 330px;
+    left: 400px;
     text-decoration: none;
     transition: 0.2s;
   }
@@ -576,7 +585,14 @@ footer{
     align-items: center;
     position: absolute;
     top: 500px;
-    left: 30px;
+    left: 90px;
+  }
+  .section2_women4, .section2_women8{
+    display: none;
+  }
+  .section2_women1, .section2_women2, .section2_women3, .section2_women4, .section2_women5, .section2_women6, .section2_women7, .section2_women8{
+    width: 80vw;
+    margin-left: 270px;
   }
 }
 @media (max-width: 768px) {
