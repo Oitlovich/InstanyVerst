@@ -514,9 +514,171 @@ footer{
       opacity: 1;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
+  #page_two, #page_three, footer{
+      width: 380vw;
+  }
+  #page_one{
+    width: 380vw;
+  }
+  .images_alena{
+    display: none;
+  }
+  .section1_women1_img1{
+    display: none;
+  }
+  .section1_images{
+    position: relative;
+    right: 360px;
+  }
+  .section1_text{
+    margin: 0;
+  }
+  .header_image{
+  background-size: 450vw;
+  width: 500vw;
+  }
+  .header_text{
+    top: 270px;
+    left: 90px;
+    width: 400px;
+  }
+  .header_name{
+    top: 150px;
+    left: 90px;
+  }
+  .images_alena, .section1_women1_img1{
+    display: none;
+  }
+  .section1_name, .section2_name{
+    width: 1420px;
+  }
+  .section1_images{
+    position: relative;
+    right: 210px;
+    top: 50px;
+  }
+  .section1_text{
+    position: relative;
+    right: 210px;
+    width: 500px;
+  }
+  .header_button2{
+    color: #fff;
+    border: 1px solid #fff;
+    width: 220px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  .header_button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 90px;
+  }
+  .section2_women4, .section2_women8{
+    display: none;
+  }
+  .section2_women1, .section2_women2, .section2_women3, .section2_women4, .section2_women5, .section2_women6, .section2_women7, .section2_women8{
+    width: 80vw;
+    margin-left: 270px;
+  }
+}
+  @media (max-width: 320px) {
+  #page_two, #page_three, footer{
+      width: 380vw;
+  }
+  #page_one{
+    width: 380vw;
+  }
+  .images_alena{
+    display: none;
+  }
+  .section1_women1_img1{
+    display: none;
+  }
+  .section1_images{
+    position: relative;
+    right: 360px;
+  }
+  .section1_text{
+    margin: 0;
+  }
+  .header_image{
+  background-size: 450vw;
+  width: 500vw;
+  }
+  .header_text{
+    top: 270px;
+    left: 90px;
+    width: 400px;
+  }
+  .header_name{
+    top: 150px;
+    left: 90px;
+  }
+  .images_alena, .section1_women1_img1{
+    display: none;
+  }
+  .section1_name, .section2_name{
+    width: 1420px;
+  }
+  .section1_images{
+    position: relative;
+    right: 210px;
+    top: 50px;
+  }
+  .section1_text{
+    position: relative;
+    right: 210px;
+    width: 500px;
+  }
+  .header_button2{
+    color: #fff;
+    border: 1px solid #fff;
+    width: 220px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  .header_button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 90px;
+  }
+  .section2_women4, .section2_women8{
+    display: none;
+  }
+  .section2_women1, .section2_women2, .section2_women3, .section2_women4, .section2_women5, .section2_women6, .section2_women7, .section2_women8{
+    width: 80vw;
+    margin-left: 270px;
+  }
+}
+/* @media (min-width: 420px) {
   #page_one, #page_two, #page_three, footer{
-      width: 100%;
+      width: 720px;
   }
   .section1_name{
     width: 1000px;
@@ -535,7 +697,7 @@ footer{
     margin: 0;
   }
   .header_image{
-  background-size: 400vw;
+  background-size: 330vw;
   width: 500vw;
   }
   .header_text{
@@ -595,107 +757,250 @@ footer{
     margin-left: 270px;
   }
 }
-@media (max-width: 375px) {
-  #page_one, #page_two, #page_three, footer{
-      width: 540px;
-  }
-}
-.section1_name{
-  width: 1000px;
-}
-.images_alena{
-  display: none;
-}
-.section1_women1_img1{
-  display: none;
-}
-.section1_images{
-  position: relative;
-  right: 360px;
-}
-.section1_text{
-  margin: 0;
-}
-.header_image{
-background-size: 379vw;
-width: 500vw;
-}
-.header_text{
-  top: 270px;
-  left: 90px;
-  width: 400px;
-}
-.header_name{
-  top: 150px;
-  left: 90px;
-}
-.images_alena, .section1_women1_img1{
-  display: none;
-}
-.section1_name, .section2_name{
-  width: 1150px;
-}
-.section1_images{
-  position: relative;
-  right: 360px;
-  top: 50px;
-}
-.section1_text{
-  position: relative;
-  right: 320px;
-  width: 500px;
-}
-.header_button2{
-  color: #fff;
-  border: 1px solid #fff;
-  width: 220px;
-  height: 70px;
-  font-size: 20px;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 500px;
-  left: 400px;
-  text-decoration: none;
-  transition: 0.2s;
-}
-.header_button1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 500px;
-  left: 90px;
-}
-.section2_women4, .section2_women8{
-  display: none;
-}
-.section2_women1, .section2_women2, .section2_women3, .section2_women4, .section2_women5, .section2_women6, .section2_women7, .section2_women8{
-  width: 80vw;
-  margin-left: 270px;
-}
-}
-@media (max-width: 992px) {
-  #page_one, #page_two, #page_three, footer{
-      width: 720px;
-  }
-}
-@media (max-width: 1200px) {
+@media (min-width: 768px) {
   #page_one, #page_two, #page_three, footer{
       width: 960px;
   }
+  .section1_name{
+    width: 1000px;
+  }
+  .images_alena{
+    display: none;
+  }
+  .section1_women1_img1{
+    display: none;
+  }
+  .section1_images{
+    position: relative;
+    right: 360px;
+  }
+  .section1_text{
+    margin: 0;
+  }
+  .header_image{
+  background-size: 180vw;
+  width: 500vw;
+  }
+  .header_text{
+    top: 270px;
+    left: 90px;
+    width: 400px;
+  }
+  .header_name{
+    top: 150px;
+    left: 90px;
+  }
+  .images_alena, .section1_women1_img1{
+    display: none;
+  }
+  .section1_name, .section2_name{
+    width: 1150px;
+  }
+  .section1_images{
+    position: relative;
+    right: 360px;
+    top: 50px;
+  }
+  .section1_text{
+    position: relative;
+    right: 320px;
+    width: 500px;
+  }
+  .header_button2{
+    color: #fff;
+    border: 1px solid #fff;
+    width: 220px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  .header_button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 90px;
+  }
+  .section2_women4, .section2_women8{
+    display: none;
+  }
+  .section2_women1, .section2_women2, .section2_women3, .section2_women4, .section2_women5, .section2_women6, .section2_women7, .section2_women8{
+    width: 80vw;
+    margin-left: 270px;
+  }
 }
-@media (max-width: 2560px) {
+@media (min-width: 1024px) {
   #page_one, #page_two, #page_three, footer{
       width: 1140px;
   }
+  .section1_name{
+    width: 1000px;
+  }
+  .images_alena{
+    display: none;
+  }
+  .section1_women1_img1{
+    display: none;
+  }
   .section1_images{
-    margin-left: 200px;
+    position: relative;
+    right: 360px;
+  }
+  .section1_text{
+    margin: 0;
+  }
+  .header_image{
+  background-size: 130vw;
+  width: 500vw;
+  }
+  .header_text{
+    top: 270px;
+    left: 90px;
+    width: 400px;
+  }
+  .header_name{
+    top: 150px;
+    left: 90px;
+  }
+  .images_alena, .section1_women1_img1{
+    display: none;
+  }
+  .section1_name, .section2_name{
+    width: 1150px;
+  }
+  .section1_images{
+    position: relative;
+    right: 360px;
+    top: 50px;
+  }
+  .section1_text{
+    position: relative;
+    right: 320px;
+    width: 500px;
+  }
+  .header_button2{
+    color: #fff;
+    border: 1px solid #fff;
+    width: 220px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  .header_button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 90px;
+  }
+  .section2_women4, .section2_women8{
+    display: none;
+  }
+  .section2_women1, .section2_women2, .section2_women3, .section2_women4, .section2_women5, .section2_women6, .section2_women7, .section2_women8{
+    width: 80vw;
+    margin-left: 270px;
   }
 }
-@media (min-width: 1401px) {
+@media (max-width: 1440px) and (min-width: 1025px) {
+  #page_one, #page_two, #page_three, footer{
+    width: 1440px;
+  }
+  .section1_name{
+    width: 1000px;
+  }
+  .images_alena{
+    display: none;
+  }
+  .section1_women1_img1{
+    display: none;
+  }
+  .section1_images{
+    position: relative;
+    right: 360px;
+  }
+  .section1_text{
+    margin: 0;
+  }
+  .header_image{
+  background-size: 130vw;
+  width: 500vw;
+  }
+  .header_text{
+    top: 270px;
+    left: 90px;
+    width: 400px;
+  }
+  .header_name{
+    top: 150px;
+    left: 90px;
+  }
+  .images_alena, .section1_women1_img1{
+    display: none;
+  }
+  .section1_name, .section2_name{
+    width: 1150px;
+  }
+  .section1_images{
+    position: relative;
+    right: 360px;
+    top: 50px;
+  }
+  .section1_text{
+    position: relative;
+    right: 320px;
+    width: 500px;
+  }
+  .header_button2{
+    color: #fff;
+    border: 1px solid #fff;
+    width: 220px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  .header_button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 90px;
+  }
+  .section2_women4, .section2_women8{
+    display: none;
+  }
+  .section2_women1, .section2_women2, .section2_women3, .section2_women4, .section2_women5, .section2_women6, .section2_women7, .section2_women8{
+    width: 80vw;
+    margin-left: 270px;
+  }
+}  */
+@media (min-width: 1440px) {
   #page_one, #page_two, #page_three, footer{
       width: 100%;
   }
