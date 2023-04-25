@@ -1053,12 +1053,6 @@ footer{
   .section1_name{
     width: 1000px;
   }
-  .images_alena{
-    display: none;
-  }
-  .section1_women1_img1{
-    display: none;
-  }
   .section1_images{
     position: relative;
     right: 360px;
@@ -1079,16 +1073,20 @@ footer{
     top: 150px;
     left: 90px;
   }
-  .images_alena, .section1_women1_img1{
-    display: none;
-  }
   .section1_name, .section2_name{
     width: 1438px;
   }
+  .section1_women1_img1{
+    display: none ;
+  }
+  .images_alena{
+    display: none;
+  }
   .section1_images{
     position: relative;
-    right: 220px;
+    right: 100px;
     top: 50px;
+    column-gap: 30px;
   }
   .section1_text{
     position: relative;
@@ -1127,11 +1125,6 @@ footer{
     margin-left: 270px;
   }
 } 
-@media (min-width: 1440px) {
-  #page_one, #page_two, #page_three, footer{
-      width: 100%;
-  }
-}
 @media (max-width: 2560px) and (min-width: 1920px) {
   #page_one, #page_two, #page_three, footer{
       width: 100%;
@@ -1148,5 +1141,9 @@ footer{
     width: 9vw;
     margin-left: 0px;
   }
-  
+}
+@media (min-width: 1440px) {
+  #page_one, #page_two, #page_three, footer{
+      width: 100%;
+  }
 }
