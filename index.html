@@ -102,7 +102,7 @@
             <p class="footer_text">г. Москва улица Большая Дмитровка, 2</p>
         </div>
     </footer>
-    <script>
+    <!-- <script>
         const nav_item = document.querySelectorAll('.nav_item[href^="#"]')
         window.pageYOffset < 300 ? nav_item[0].classList.remove('nav_item_active') : '';
         if (elem.id != '') {
@@ -110,6 +110,13 @@
 
          document.querySelector(`.nav_item[href^="#${elem.id}"]`).classList.add('nav_item_active');
         }
+         </script> -->
+         <script>
+            const leftgear = document.querySelector(".section1_instanyfamily")
+                
+            window.addEventListener("scroll", () => {
+                leftgear.style.transform = `rotate(${window.pageYOffset / 10}deg)`;
+            });
          </script>
     <script src="/script/index.js"></script>
 </body>
